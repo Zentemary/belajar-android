@@ -10,16 +10,44 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Apotik Bersama Dengan Dia"
+        android:text="PENDATAAN SAJA"
         android:padding="32px"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="20px"
         android:textSize="20sp"
         android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Masukkan Username"
+        android:id="@+id/edt_username"
+        android:maxLength="15"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor HP"
+        android:id="@+id/edt_nomorhp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email@example.com"
+        android:id="@+id/edt_email"
+        android:inputType="textEmailAddress"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Kirim"
+        android:id="@+id/btn_kirim"
         />
 
 </LinearLayout>

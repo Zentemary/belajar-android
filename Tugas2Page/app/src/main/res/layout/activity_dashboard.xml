@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:gravity="center"
+        android:text="Selamat Anda Telah Terdata"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/kermit"
+        />
+
+    <TextView
+        android:id="@+id/txtUsername_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="b"
+        android:textSize="32sp"
+        />
+
+    <TextView
+        android:id="@+id/txtNomor_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="c"
+        android:textSize="32sp"
+        />
+
+    <TextView
+        android:id="@+id/txtEmail_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="d"
+        android:textSize="32sp"
+        />
+
+</LinearLayout>
